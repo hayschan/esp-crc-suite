@@ -3,6 +3,13 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
+// CRC16 parameters (example values for CRC-16/MODBUS algorithm)
+#define CRC16_POLYNOME 0xA001
+#define CRC16_INITIAL 0xFFFF
+#define CRC16_XOR_OUT 0x0000
+#define CRC16_REV_IN true
+#define CRC16_REV_OUT true
+
 void app_main(void) {
     CRC16_t crc;
 
