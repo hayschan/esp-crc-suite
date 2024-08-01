@@ -5,7 +5,7 @@
 //     URL: https://github.com/RobTillaart/CRC
 
 
-#include "CrcFastReverse.h"
+#include "crc_fast_reverse.h"
 
 
 uint8_t reverse8bits(uint8_t in)

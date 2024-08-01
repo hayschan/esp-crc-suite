@@ -1,8 +1,13 @@
 #ifndef CRC16_H
 #define CRC16_H
 
+
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+
 #include "crc_defines.h"
 #include "crc_parameters.h"
+#include "crc_fast_reverse.h"
 
 #ifdef __cplusplus
 extern "C" {
