@@ -24,4 +24,4 @@ jobs:
       with:
         esp_idf_version: ${{ matrix.idf_ver }}
         target: ${{ matrix.idf_target }}
-        path: examples
+        path: examples/default_example
